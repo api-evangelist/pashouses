@@ -1,8 +1,14 @@
 aid: pashouses
 name: Pashouses
-description: 'Pashouses is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Pashouses (PT Pionir Alfa Sejahtera) is an Indonesian proptech company operating an end-to-end
+  transactional marketplace for buying and selling ready-to-occupy residential homes across the Greater Jakarta
+  (Jabodetabek) region — Jakarta, Tangerang, Tangerang Selatan, Bekasi, Bogor, and Depok. Founded in 2020 by
+  Junghans Tasani and Bin Anindita, the platform combines an iBuyer model, brokerage, staging, and renovation
+  with mortgage (KPR) origination through partnerships with major Indonesian banks (BCA, Mandiri, BSI, BRI). It
+  offers consumer tools including a Smart Agent property assistant, a KPR mortgage calculator, and an
+  affordability calculator. QED Investors led a $5M pre-Series B in November 2022 (its first Indonesian /
+  Southeast Asian investment). The company exposes a consumer web marketplace only; no public developer, API,
+  or documentation surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/pashouses/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://ik.imagekit.io/pashouses/pascow/plogimage_prgBBdzPD.webp
 tags:
 - Company
 - Proptech
+- Real Estate
+- Indonesia
+- Marketplace
+- Mortgage
+- iBuyer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://pashouses.id/
+- type: About
+  url: https://pashouses.id/about-us
+- type: TermsOfService
+  url: https://pashouses.id/terms-and-condition
+- type: PrivacyPolicy
+  url: https://pashouses.id/privacy-policy
+- type: DomainSecurity
+  url: security/pashouses-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
